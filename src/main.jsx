@@ -1,30 +1,40 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
-import Home from "./pages/Home.jsx";
-import Contact from "./pages/Contact.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/gtldr_v1/",
-    element: <App />,
-    children: [
-      {
-        path: "/gtldr_v1/",
-        element: <Home />,
-      },
-      {
-        path: "/gtldr_v1/contact",
-        element: <Contact />,
-      },
-    ],
-  },
-]);
+// Routes
+import Home from "./www/modules/Home/Home.jsx";
+import Guides from "./www/modules/Guides/Guides.jsx";
+import Dendro from "./www/modules/Guides/Dendro.jsx";
+
+
+import {
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+  createRoutesFromElements,
+} from "react-router-dom";
+
+const routeElements = (
+  <Route path="/gtldr_v1/">
+    <Route index element={<Home />} />
+    <Route path="/gtldr_v1/guides" element={<Guides />} />
+    <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} />
+  </Route>
+);
+
+const router = createBrowserRouter(createRoutesFromElements(routeElements));
+
+function App() {
+  
+  return (
+    <>
+      <RouterProvider router={router}/>
+    </>
+  );
+}
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
