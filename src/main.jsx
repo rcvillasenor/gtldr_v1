@@ -7,7 +7,7 @@ import Home from "./www/modules/Home/Home.jsx";
 import Guides from "./www/modules/Guides/Guides.jsx";
 import Dendro from "./www/modules/Guides/Dendro.jsx";
 import Test from "./www/modules/General/Components/Test.jsx";
-import References from "/src/www/Modules/Quick References/References.jsx";
+import References from "./www/modules/Quick References/References.jsx";
 
 
 import {
