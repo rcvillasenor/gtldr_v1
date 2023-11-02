@@ -44,3 +44,12 @@
 
 # 10/31/2023:
     - migrated notes and set up more of the project/page wise
+
+# 11/01/2023:
+    - guides, quick references to things like items available to domains on a particular day, reset timer across the servers
+    - condensed top nav: guides, quick refs, 
+    - condensed bottom nav: contact, about us, help announcements
+    - misc: custom 404, 
+
+    potential fonts: 
+        - topnav: ultra, audiowide, monoton (for logo)

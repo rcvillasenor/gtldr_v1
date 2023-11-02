@@ -1,3 +1,4 @@
+import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -5,6 +6,8 @@ import ReactDOM from "react-dom/client";
 import Home from "./www/modules/Home/Home.jsx";
 import Guides from "./www/modules/Guides/Guides.jsx";
 import Dendro from "./www/modules/Guides/Dendro.jsx";
+import Test from "./www/modules/General/Components/Test.jsx";
+import References from "/src/www/Modules/Quick References/References.jsx";
 
 
 import {
@@ -19,6 +22,8 @@ const routeElements = (
     <Route index element={<Home />} />
     <Route path="/gtldr_v1/guides" element={<Guides />} />
     <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} />
+    <Route path="/gtldr_v1/test" element={<Test />} />
+    <Route path="/gtldr_v1/references" element={<References />} />
   </Route>
 );
 
