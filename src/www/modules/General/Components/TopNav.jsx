@@ -9,7 +9,7 @@ import { useState, useEffect, useRef } from "react";
 export default function TopNav() {
   const [scrollDirection, setScrollDirection] = useState("top");
   const [loginClick, setLoginClick] = useState(false);
-  const [loginValidate, setLoginValidate] = useState(false);
+  // const [loginValidate, setLoginValidate] = useState(false);
   const prevScrollY = useRef(0);
 
   const handleLoginClick = () => {
@@ -41,7 +41,7 @@ export default function TopNav() {
 
   return (
     <div className={"topnav sticky top-0 " + scrollDirection}>
-      <nav className="bg-palette2 text-palette6 flex flex-row justify-between">
+      <nav className="bg-palette2 text-palette6 flex flex-row justify-between shadow-2xl">
         <Link
           to="/gtldr_v1/"
           className="flex flex-row items-center w-1/10 m-0 p-0 group"
@@ -73,8 +73,14 @@ export default function TopNav() {
               <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-palette4 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></span>
             </Link>
             {" | "}
+            <Link to="/gtldr_v1/404" className="relative group">
+              404
+              <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-palette4 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></span>
+            </Link>
+            {" | "}
           </div>
 
+          {/* following conditional block needs to be modified when we get login modal + validation sorted */}
           {!loginClick ? (
             <div
               className="pl-1 pr-3 hover:cursor-pointer relative group"

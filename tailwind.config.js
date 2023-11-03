@@ -8,6 +8,7 @@ module.exports = {
       palette4: "#E9C46A",
       palette5: "#F4A261",
       palette6: "#E76F51",
+      white: "#F3F2ED"
     },
     extend: {},
   },

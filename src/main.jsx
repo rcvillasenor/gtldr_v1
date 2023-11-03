@@ -20,12 +20,12 @@ import {
 
 const routeElements = (
   <Route path="/gtldr_v1/">
-    <Route index element={<Home />} />
-    <Route path="/gtldr_v1/guides" element={<Guides />} />
-    <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} />
-    <Route path="/gtldr_v1/test" element={<Test />} />
-    <Route path="/gtldr_v1/references" element={<References />} />
-    <Route path="/gtldr_v1/support" element={<Support />} />
+    <Route index element={<Home />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/guides" element={<Guides />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/test" element={<Test />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/references" element={<References />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/support" element={<Support />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/404" element={<Error404 />} />
   </Route>
 );
