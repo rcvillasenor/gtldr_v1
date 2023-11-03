@@ -1,6 +1,7 @@
 import "../../../App.css";
 
 import TopNav from "../General/Components/TopNav.jsx";
+import Footer from "../General/Components/Footer.jsx";
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -26,32 +27,7 @@ export default function Home() {
   return (
     <>
       <TopNav />
-      {/* <nav
-        style={{
-          padding: "1rem 1rem",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          // borderBottom: "1px solid black",
-        }}
-      >
-        <div>
-          <Link
-            style={{ display: "flex", flexDirection: "row", alignItems: "center", height: "3rem" }}
-            to="/gtldr_v1/"
-          >
-            <img style={{ width: "20%" }} src="src\assets\logo.png" />
-            <span style={{fontWeight: "800"}} className="text-4xl">G-TL;DR</span>
-          </Link>
-        </div>
-        <div>
-          <Link to="/gtldr_v1/guides">Guides</Link>
-          {" | "}
-          <Link to="/gtldr_v1/guides/dendro">Dendro</Link>
-          {" | "}
-          <Link to="/gtldr_v1/test">Test</Link>
-        </div>
-      </nav> */}
+      <Footer />
     </>
   );
 }

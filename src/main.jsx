@@ -8,6 +8,7 @@ import Guides from "./www/modules/Guides/Guides.jsx";
 import Dendro from "./www/modules/Guides/Dendro.jsx";
 import Test from "./www/modules/General/Components/Test.jsx";
 import References from "./www/modules/Quick References/References.jsx";
+import Support from "./www/modules/Support/Support.jsx";
 
 
 import {
@@ -24,6 +25,7 @@ const routeElements = (
     <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} />
     <Route path="/gtldr_v1/test" element={<Test />} />
     <Route path="/gtldr_v1/references" element={<References />} />
+    <Route path="/gtldr_v1/support" element={<Support />} />
   </Route>
 );
 
