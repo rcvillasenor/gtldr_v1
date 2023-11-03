@@ -1,5 +1,7 @@
 import "../../../../App.css";
 
+import TopNav from "./TopNav.jsx";
+
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -23,6 +25,7 @@ export default function Home() {
 
   return (
     <>
+      <TopNav />
       <nav
         style={{
           padding: "1rem 1rem",
@@ -32,15 +35,6 @@ export default function Home() {
           borderBottom: "1px solid black",
         }}
       >
-        <div>
-          Home Page
-          <br />
-          Logo Goes Here
-        </div>
-        <div>
-          <Link to="/gtldr_v1/">Home</Link>
-        </div>
-
         <div style={{ paddingRight: "0.5rem" }}>
           <div
             onClick={handleFonts}
@@ -118,7 +112,15 @@ export default function Home() {
       )}
 
       {showColors && (
-        <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-around", paddingTop: "2rem"}}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+            paddingTop: "2rem",
+          }}
+        >
           <div>
             <h1>Color Set 1:</h1>
             <div

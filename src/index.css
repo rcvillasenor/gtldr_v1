@@ -14,7 +14,7 @@
   font-weight: 800;
 
   color-scheme: light dark;
-  color: #E76F51;
+  /* color: #E76F51; */
   background-color: #264653;
 
   font-synthesis: none;
@@ -24,6 +24,27 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.topnav {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 .logo-font {
   font-family: "Silkscreen", Verdana, sans-serif;
+}
+
+.top {
+  top: 0;
+}
+
+.down {
+  top: -100px;
+  transition-duration: 0.9s;
+}
+
+.up {
+  top: 0;
+  transition-duration: 0.9s;
 }

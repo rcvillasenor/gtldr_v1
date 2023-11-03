@@ -25,9 +25,72 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="bg-palette1">
       <TopNav />
+      <Link to="/gtldr_v1/404">Test 404 Link</Link>
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vero
+        minima perspiciatis facilis a vitae necessitatibus enim, recusandae
+        eaque iusto laborum nobis sunt non fugit quia temporibus nulla itaque
+        porro.
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
