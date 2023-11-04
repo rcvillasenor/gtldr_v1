@@ -53,3 +53,9 @@
 
     potential fonts: 
         - topnav: ultra, audiowide, monoton (for logo)
+
+# 11/04/2023:
+    - need to figure out how to properly throw 404 error with custom built error element while using react router
+    - need to also figure out component to topnav to handle hover effect to display sub pages (determine if we even need this because the argument could be made that the main pages could display the sub pages easily although i suppose this would be nice ux if i managed to get it to work)
+    topnav link logic: mouseover mainlink toggles menu on, mouseout of the newly displayed sublinks tray toggles menu off
+    - need to figure out footer contents
