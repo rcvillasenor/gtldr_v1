@@ -1,4 +1,4 @@
-import "../../../App.css";
+//styles
 
 import TopNav from "../General/Components/TopNav.jsx";
 import Footer from "../General/Components/Footer.jsx";
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <TopNav />
-      <TestText />
+      {/* <TestText /> */}
       <Footer />
     </>
   );

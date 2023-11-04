@@ -6,10 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 :root {
-  /* font-family: "Ultra", Verdana, sans-serif; */
-  /* font-family: "Silkscreen", sans-serif; */
+  
   font-family: Verdana, sans-serif;
-  /* font-family: "Monoton", sans-serif; */
   line-height: 1.5;
   font-weight: 800;
 
@@ -30,8 +28,16 @@
   -ms-user-select: none;
 }
 
-.logo-font {
+.google-font-0 {
   font-family: "Silkscreen", Verdana, sans-serif;
+}
+
+.google-font-1 {
+  font-family: "Ultra", Verdana, sans-serif;
+}
+
+.google-font-2 {
+  font-family: "Monoton", sans-serif;
 }
 
 .top {
