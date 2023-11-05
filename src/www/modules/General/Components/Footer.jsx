@@ -23,19 +23,19 @@ export default function Footer() {
             />
             {" | "}
             <TopNavLinks
-              linkTo="/gtldr_v1/about"
+              linkTo="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki"
               linkName="Genshin Wiki"
               target="_blank"
             />{" "}
             {" | "}
             <TopNavLinks
-              linkTo="/gtldr_v1/faqs"
+              linkTo="https://akasha.cv/"
               linkName="Akasha"
               target="_blank"
             />{" "}
             {" | "}
             <TopNavLinks
-              linkTo="/gtldr_v1/faqs"
+              linkTo="https://enka.network/"
               linkName="Enka"
               target="_blank"
             />
