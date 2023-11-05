@@ -1,10 +1,13 @@
-import TopNav from "../General/Components/TopNav.jsx";
+import TopNav from "../General/Components/TopNav";
+import TestText from "../General/Components/TestText";
+import Footer from "../General/Components/Footer";
 
 export default function References() {
-    return(
-        <>
-            <TopNav />
-            <div>Test References</div>
-        </>
-    );
+  return (
+    <>
+      <TopNav />
+      <TestText name="Quick References Base" />
+      <Footer />
+    </>
+  );
 }

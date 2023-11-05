@@ -54,11 +54,28 @@ export default function TopNav() {
         </Link>
         <div className="google-font-0 flex flex-row items-center gap-1">
           <div>
-            <TopNavLinks linkTo="/gtldr_v1/guides" linkName="Mechanics Guides" />
+            <TopNavLinks
+              linkTo="/gtldr_v1/guides"
+              linkName="Mechanics Guides"
+              subLink1="/gtldr_v1/guides/dendro"
+              subLinkName1="Dendro Reactions"
+            />
             {" | "}
-            <TopNavLinks linkTo="/gtldr_v1/references" linkName="References" />
+            <TopNavLinks
+              linkTo="/gtldr_v1/references"
+              linkName="Quick References"
+              subLink1="/gtldr_v1/guides/furina-healer-tier-list"
+              subLinkName1="Furina Healer Tier List"
+            />
             {" | "}
-            <TopNavLinks linkTo="/gtldr_v1/support" linkName="Support" />
+            <TopNavLinks
+              linkTo="/gtldr_v1/support"
+              linkName="Support"
+              subLink1="/gtldr_v1/404/"
+              subLinkName1="404 Page Mock Up"
+              subLink2="/gtldr_v1/test/"
+              subLinkName2="Test Style Module"
+            />
             {" | "}
           </div>
 

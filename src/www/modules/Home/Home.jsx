@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <TopNav />
-      {/* <TestText /> */}
+      <TestText name="Home Page"/>
       <Footer />
     </>
   );

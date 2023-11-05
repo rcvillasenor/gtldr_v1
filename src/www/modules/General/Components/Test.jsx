@@ -4,6 +4,8 @@ import TopNav from "./TopNav.jsx";
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import TestText from "./TestText.jsx";
+import Footer from "./Footer.jsx";
 
 export default function Home() {
   const [showFonts, setShowFonts] = useState(false);
@@ -328,6 +330,8 @@ export default function Home() {
           </div>
         </div>
       )}
+      <TestText name="Test Page" />
+      <Footer />
     </>
   );
 }
