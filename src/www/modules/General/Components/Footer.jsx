@@ -26,17 +26,23 @@ export default function Footer() {
               linkTo="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki"
               linkName="Genshin Wiki"
               target="_blank"
-            />{" "}
+            />
             {" | "}
             <TopNavLinks
               linkTo="https://akasha.cv/"
               linkName="Akasha"
               target="_blank"
-            />{" "}
+            />
             {" | "}
             <TopNavLinks
               linkTo="https://enka.network/"
               linkName="Enka"
+              target="_blank"
+            />
+            {" | "}
+            <TopNavLinks
+              linkTo="https://paimon.moe/"
+              linkName="paimon.moe"
               target="_blank"
             />
           </div>

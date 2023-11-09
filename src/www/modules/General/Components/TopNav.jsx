@@ -66,6 +66,8 @@ export default function TopNav() {
               linkName="Quick References"
               subLink1="/gtldr_v1/guides/furina-healer-tier-list"
               subLinkName1="Furina Healer Tier List"
+              subLink2="/gtldr_v1/guides/energy-requirements"
+              subLinkName2="Energy Requirements"
             />
             {" | "}
             <TopNavLinks
