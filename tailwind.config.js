@@ -9,6 +9,9 @@ module.exports = {
       palette4: "#E9C46A",
       palette5: "#F4A261",
       palette6: "#E76F51",
+      palette7: "#57BEE6",
+      palette8: "#3D73DD",
+      palette9: "#FF5C5C",
       white: "#F3F2ED"
     },
     borderWidth: {

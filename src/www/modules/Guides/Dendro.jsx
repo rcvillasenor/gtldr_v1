@@ -1,32 +1,43 @@
 import TopNav from "../General/Components/TopNav";
 import TestText from "../General/Components/TestText";
 import Footer from "../General/Components/Footer";
+import Header from "../General/Components/Header";
 
 export default function Dendro() {
   return (
     <>
       <TopNav />
+      <Header name="Dendro Reactions" />
       <div className="my-3 mx-3 w-max">
-        <h1 className="text-6xl text-center">Dendro Reactions:</h1>
         <p className="text-center">
-          <ul>
-            <li>Bloom</li>
-            <p>
-              Exploring Bloom:
-              <ul>
-                <li>Hyper Bloom</li>
-                <li>Burgeon</li>
-              </ul>
-            </p>
-            <li>Quicken</li>
-            <p>
-              Exploring Quicken:
-              <ul>
-                <li>Aggravate</li>
-                <li>Spread</li>
-              </ul>
-            </p>
-          </ul>
+          <div>
+            <h1>ELECTRO</h1>
+            <div>
+              <h2>SECONDARY APPLICATION</h2>
+              <div>Electro: Aggravate</div>
+              <div>Dendro: Spread</div>
+            </div>
+          </div>
+          <div>
+            <h1>HYDRO</h1>
+            <div>
+              <h2>SECONDARY APPLICATION</h2>
+              <div>Electro: Hyperbloom</div>
+              <div>Pyro: Burgeon</div>
+            </div>
+          </div>
+          <div>
+            <h1>PYRO</h1>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <h1>OTHER</h1>
+            <div>ANEMO</div>
+            <div>CRYO</div>
+            <div>GEO</div>
+          </div>
         </p>
       </div>
       <TestText name="Dendro Reactions" />

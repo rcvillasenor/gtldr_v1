@@ -59,3 +59,41 @@
     - need to also figure out component to topnav to handle hover effect to display sub pages (determine if we even need this because the argument could be made that the main pages could display the sub pages easily although i suppose this would be nice ux if i managed to get it to work)
     topnav link logic: mouseover mainlink toggles menu on, mouseout of the newly displayed sublinks tray toggles menu off
     - need to figure out footer contents
+
+    <ul>
+            <li>BLOOM</li>
+            <p>
+              Exploring Bloom:
+              <ul>
+                <li>Hyper Bloom</li>
+                <li>Burgeon</li>
+              </ul>
+            </p>
+            <li>QUICKEN</li>
+            <p>
+              Exploring Quicken:
+              <ul>
+                <li>Aggravate</li>
+                <li>Spread</li>
+              </ul>
+            </p>
+
+            <li>BURNING</li>
+            <p>
+              Exploring Quicken:
+              <ul>
+                <li>Aggravate</li>
+                <li>Spread</li>
+              </ul>
+            </p>
+          </ul>
+
+          DENDRO
+          
+          PYRO
+          ELECTRO
+          HYDRO
+
+          CRYO
+          GEO
+          ANEMO

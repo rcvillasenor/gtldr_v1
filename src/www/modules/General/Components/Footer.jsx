@@ -1,4 +1,5 @@
 import TopNavLinks from "./TopNavLinks";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -49,9 +50,17 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-center my-3">
-        © 2023 Richard Villaseñor <br />© All rights reserved by Hoyoverse.
-        Other properties belong to their respective owners.
+      <div className="text-center text-sm my-3">
+        © 2023 G-TL;DR | Built by{" "}
+        <Link
+          to="https://github.com/rcvillasenor"
+          target="_blank"
+          className="hover:text-palette4"
+        >
+          PooBewwy
+        </Link>
+        <br />© All rights reserved by Hoyoverse. Other properties belong to
+        their respective owners.
       </div>
     </div>
   );
