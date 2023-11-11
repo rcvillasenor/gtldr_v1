@@ -6,7 +6,7 @@ export default function Error404() {
   console.error(error);
   return (
     <div className="google-font-0 text-center absolute border-4 p-12 w-1/2 top-1/4 left-1/4 text-palette4 shadow-2xl border-palette4">
-      <h1 className="text-6xl">Aw, nuts, 404 Error:</h1>
+      <h1 className="text-6xl">Aw, nuts, 404 Error;</h1>
       <h2 className="text-2xl py-2 text-palette6">
         We couldn't find the page requested.
       </h2>

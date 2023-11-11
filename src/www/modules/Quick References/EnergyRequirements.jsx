@@ -1,11 +1,13 @@
 import TopNav from "../General/Components/TopNav";
 import TestText from "../General/Components/TestText";
 import Footer from "../General/Components/Footer";
+import Header from "../General/Components/Header";
 
 export default function EnergyRequirements() {
   return (
     <>
       <TopNav />
+      <Header name="Energy Requirements" headerColor="bg-palette8" borderColor="border-palette8" textColor="text-white"/>
       <div>
         <div>
           Same Element -<div>Caught:</div>

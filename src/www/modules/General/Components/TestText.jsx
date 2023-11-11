@@ -1,7 +1,10 @@
+import Header from "./Header";
+
 export default function TestText({name}) {
 
   return (
     <>
+      <Header name="Sample Header Name" borderColor="border-palette9" headerColor="bg-palette9" textColor="text-white"/>
       <div
         className="text-6xl mx-3 my-3 w-max"
         style={{
@@ -17,7 +20,7 @@ export default function TestText({name}) {
           textAlign: "center"
         }}
       >
-        <div style={{color: "#FEAE49"}}>Test:</div>
+        <div style={{color: "#FEAE49"}}>Under Contstruction! Sorry! <br /> Test:</div>
         {name}
       </div>
 
@@ -42,7 +45,7 @@ export default function TestText({name}) {
             paddingTop: "1rem",
           }}
         >
-          Content Space 1
+          Sample Content Space 1
         </div>
         <div
           style={{
@@ -63,7 +66,7 @@ export default function TestText({name}) {
               textAlign: "center",
             }}
           >
-            Content Sub Space 1
+            Sample Content Sub Space 1
           </div>
           <div
             style={{
@@ -76,7 +79,7 @@ export default function TestText({name}) {
               textAlign: "center",
             }}
           >
-            Content Sub Space 2
+            Sample Content Sub Space 2
           </div>
         </div>
       </div>

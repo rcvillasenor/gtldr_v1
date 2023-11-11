@@ -12,7 +12,14 @@ module.exports = {
       palette7: "#57BEE6",
       palette8: "#3D73DD",
       palette9: "#FF5C5C",
-      white: "#F3F2ED"
+      white: "#F3F2ED",
+      dendro: "#99B936",
+      electro: "#9278A2",
+      pyro: "#E17434",
+      hydro: "#48B4DE",
+      anemo: "#73A8A4",
+      geo: "#EFAF2D",
+      cryo: "#97CAD7",
     },
     borderWidth: {
       DEFAULT: '1px',
