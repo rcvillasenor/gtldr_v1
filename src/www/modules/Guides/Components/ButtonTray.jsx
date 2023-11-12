@@ -24,7 +24,7 @@ export default function ButtonTray() {
         {Object.keys(buttonStates).map((button) => (
           <div
             key={button}
-            className={`${buttonStates[button].color} mx-10 my-5 py-1 px-3 border-solid text-center bg-palette5 rounded-2xl hover:cursor-pointer`}
+            className={`${buttonStates[button].color} mx-10 my-5 py-1 px-3 border-solid text-center rounded-2xl hover:cursor-pointer`}
             onClick={() =>
               setButtonStates((prevStates) => ({
                 ...prevStates,

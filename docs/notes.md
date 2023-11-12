@@ -152,3 +152,6 @@ To Do (Still):
 - need to finish infocard component logic for buttons and conditional rendering (consider making it look like a window or a card?)
 - figure out a default header bg/border color
 - outline of the each base "page"/route (i.e. sub directory nav for mechs guides/quick refs)
+
+# 11/11/2023:
+- need to finalize dendro page contents; styling is mostly done now
