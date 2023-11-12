@@ -11,4 +11,4 @@ export default function Header(props) {
     </h1>
   );
 }
-//bg-palette, border-palette
+//bg-palette, border-palette, text-palette

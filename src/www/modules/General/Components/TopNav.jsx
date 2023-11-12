@@ -42,13 +42,13 @@ export default function TopNav() {
 
   return (
     <div className={"topnav sticky top-0 " + scrollDirection}>
-      <nav className="bg-palette2 text-palette6 flex flex-row justify-between shadow-2xl">
+      <nav className="bg-palette2 text-palette5 flex flex-row justify-between shadow-2xl">
         <Link
           to="/gtldr_v1/"
           className="flex flex-row items-center w-1/10 m-0 pl-1.5 group"
         >
           <img src={siteLogo} alt="site logo" className="w-12 inline-block" />
-          <span className="google-font-0 font-extrabold text-3xl pr-2 pb-0.5 text-center group-hover:text-palette5">
+          <span className="google-font-0 font-extrabold text-3xl pr-2 pb-0.5 text-center group-hover:text-palette6">
             G-TL;DR
           </span>
         </Link>

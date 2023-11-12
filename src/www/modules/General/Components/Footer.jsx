@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-palette2 text-palette6 flex flex-col gap-4">
+    <div className="bg-palette2 text-palette5 flex flex-col gap-4">
       <div className="google-font-0 flex flex-col mx-3 items-center text-center pb-5 gap-4">
         <div className="flex flex-col">
           <h1 className="py-3">Site Links</h1>
