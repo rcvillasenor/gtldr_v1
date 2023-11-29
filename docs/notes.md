@@ -155,3 +155,6 @@ To Do (Still):
 
 # 11/11/2023:
 - need to finalize dendro page contents; styling is mostly done now
+
+# 11/28/2023:
+- consider adding tldrs for characters even like to get general gists of how a character is supposed to work.
