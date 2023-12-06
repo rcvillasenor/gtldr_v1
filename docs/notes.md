@@ -166,3 +166,8 @@ To Do (Still):
 - previous issue from last note resolved on vscode restart.
 - added character tldr page
 - consider adding an elemental gauge theory page to the mechanics guide.
+- char tldr info:
+  - constellations tldr?
+  - kit tldr
+  - sets/stats tldr
+  - use keqingmains as a guide and make sure to reference/give credit
