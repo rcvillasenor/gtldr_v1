@@ -58,6 +58,8 @@ export default function TopNav() {
               linkName="Mechanics Guides"
               subLink1="/gtldr_v1/guides/dendro"
               subLinkName1="Dendro Reactions"
+              subLink2="/gtldr_v1/guides/elemental-gauge-theory"
+              subLinkName2="Elemental Gauge Theory"
             />
             {" | "}
             <TopNavLinks

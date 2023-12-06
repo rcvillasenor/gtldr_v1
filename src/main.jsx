@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./www/modules/Home/Home.jsx";
 import Guides from "./www/modules/Guides/Guides.jsx";
 import Dendro from "./www/modules/Guides/Dendro.jsx";
+import EGT from "./www/modules/Guides/EGT.jsx";
 import FurinaHealTier from "./www/modules/Quick References/FurinaHealersTierList.jsx";
 import CharTLDRs from "./www/modules/Quick References/CharTLDRs.jsx";
 import EnergyReqs from "./www/modules/Quick References/EnergyRequirements.jsx";
@@ -32,6 +33,7 @@ const routeElements = (
     <Route path="/gtldr_v1/faqs" element={<FAQs />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/guides" element={<Guides />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/guides/elemental-gauge-theory" element={<EGT />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/references/furina-healer-tier-list" element={<FurinaHealTier />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/references/energy-requirements" element={<EnergyReqs />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/references/char-tldrs" element={<CharTLDRs />} errorElement={<Error404 />} />

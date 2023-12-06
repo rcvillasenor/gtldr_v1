@@ -161,3 +161,8 @@ To Do (Still):
 
 # 11/29/2023:
 - need to figure out what's wrong with vs code; it's not automatically noting changes in the the codebase. node version is also likely old.
+
+# 12/6/2023:
+- previous issue from last note resolved on vscode restart.
+- added character tldr page
+- consider adding an elemental gauge theory page to the mechanics guide.
