@@ -40,6 +40,17 @@ export default function TopNavLinks(props) {
                 </div>
               </Link>
             )}
+            {props.subLink3 && (
+              <Link to={props.subLink3}>
+                <div
+                  className={`${
+                    props.subLink4 ? "border-b-3 " : ""
+                  } border-palette4 hover:bg-palette1 px-1 py-1`}
+                >
+                  {props.subLinkName3}
+                </div>
+              </Link>
+            )}
           </div>
         )}
       </Link>

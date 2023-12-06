@@ -6,7 +6,8 @@ import ReactDOM from "react-dom/client";
 import Home from "./www/modules/Home/Home.jsx";
 import Guides from "./www/modules/Guides/Guides.jsx";
 import Dendro from "./www/modules/Guides/Dendro.jsx";
-import FurinaHealTier from "./www/modules/Quick References/FurinaHealersTierList";
+import FurinaHealTier from "./www/modules/Quick References/FurinaHealersTierList.jsx";
+import CharTLDRs from "./www/modules/Quick References/CharTLDRs.jsx";
 import EnergyReqs from "./www/modules/Quick References/EnergyRequirements.jsx";
 import Test from "./www/modules/General/Components/Test.jsx";
 import References from "./www/modules/Quick References/References.jsx";
@@ -31,8 +32,9 @@ const routeElements = (
     <Route path="/gtldr_v1/faqs" element={<FAQs />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/guides" element={<Guides />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/guides/dendro" element={<Dendro />} errorElement={<Error404 />} />
-    <Route path="/gtldr_v1/guides/furina-healer-tier-list" element={<FurinaHealTier />} errorElement={<Error404 />} />
-    <Route path="/gtldr_v1/guides/energy-requirements" element={<EnergyReqs />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/references/furina-healer-tier-list" element={<FurinaHealTier />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/references/energy-requirements" element={<EnergyReqs />} errorElement={<Error404 />} />
+    <Route path="/gtldr_v1/references/char-tldrs" element={<CharTLDRs />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/references" element={<References />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/support" element={<Support />} errorElement={<Error404 />} />
     <Route path="/gtldr_v1/test" element={<Test />} errorElement={<Error404 />} />

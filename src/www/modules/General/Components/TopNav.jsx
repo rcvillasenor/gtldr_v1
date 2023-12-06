@@ -63,10 +63,12 @@ export default function TopNav() {
             <TopNavLinks
               linkTo="/gtldr_v1/references"
               linkName="Quick References"
-              subLink1="/gtldr_v1/guides/furina-healer-tier-list"
+              subLink1="/gtldr_v1/references/furina-healer-tier-list"
               subLinkName1="Furina Healer Tier List"
-              subLink2="/gtldr_v1/guides/energy-requirements"
+              subLink2="/gtldr_v1/references/energy-requirements"
               subLinkName2="Energy Requirements"
+              subLink3="/gtldr_v1/references/char-tldrs"
+              subLinkName3="Character TL;DRs"
             />
             {" | "}
             <TopNavLinks

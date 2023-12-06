@@ -3,17 +3,17 @@ import Header from "../General/Components/Header";
 import TestText from "../General/Components/TestText";
 import Footer from "../General/Components/Footer";
 
-export default function FurinaHealTier() {
+export default function CharTLDRs() {
   return (
     <>
       <TopNav />
       <Header
-        name="Furina Healers Tier List"
+        name="Characters TL;DRs"
         headerColor="bg-hydro"
         borderColor="border-hydro"
         textColor="white"
       />
-      <TestText name="Furina Healers Tier List" />
+      <TestText name="Character TL;DRs" />
       <Footer />
     </>
   );
