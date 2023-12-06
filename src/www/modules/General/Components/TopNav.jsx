@@ -10,12 +10,12 @@ import { useState, useEffect, useRef } from "react";
 export default function TopNav() {
   const [scrollDirection, setScrollDirection] = useState("top");
   const [loginClick, setLoginClick] = useState(false);
-  // const [loginValidate, setLoginValidate] = useState(false);
+  // const [loginValidate, setLoginValidate] = useState(false); //for future login functionality
   const prevScrollY = useRef(0);
 
   const handleLoginClick = () => {
     setLoginClick((prevState) => !prevState);
-    // console.log("Clicked State: " + loginClick);
+    // console.log("Clicked State: " + loginClick); //debugging
   };
 
   useEffect(() => {
@@ -29,7 +29,6 @@ export default function TopNav() {
       } else {
         setScrollDirection("top");
       }
-
       prevScrollY.current = positionY;
     };
 

@@ -158,3 +158,6 @@ To Do (Still):
 
 # 11/28/2023:
 - consider adding tldrs for characters even like to get general gists of how a character is supposed to work.
+
+# 11/29/2023:
+- need to figure out what's wrong with vs code; it's not automatically noting changes in the the codebase. node version is also likely old.
