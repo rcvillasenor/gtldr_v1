@@ -40,7 +40,7 @@ export default function TopNav() {
   }, []);
 
   return (
-    <div className={"topnav sticky top-0 " + scrollDirection}>
+    <div className={"select-none topnav sticky top-0 " + scrollDirection}>
       <nav className="bg-palette2 text-palette5 flex flex-row justify-between shadow-2xl">
         <Link
           to="/gtldr_v1/"

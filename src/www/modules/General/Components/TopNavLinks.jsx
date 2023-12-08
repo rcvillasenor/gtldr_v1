@@ -9,7 +9,7 @@ export default function TopNavLinks(props) {
       <Link
         to={props.linkTo}
         target={props.target}
-        className="relative group border-3 border-palette2 hover:border-palette4 hover:bg-palette1 w-full px-1 py-1"
+        className="select-none relative group border-3 border-palette2 hover:border-palette4 hover:bg-palette1 w-full px-1 py-1"
         onMouseOver={() => setLinkHover(true)}
         onMouseOut={() => setLinkHover(false)}
       >

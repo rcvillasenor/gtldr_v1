@@ -8,9 +8,16 @@ export default function Dendro() {
   return (
     <>
       <TopNav />
-      <Header name="Dendro Reactions" headerColor="bg-dendro" borderColor="border-dendro" textColor="text-white"/>
-      <ButtonTray />
-      <TestText name="Dendro Reactions" />
+      <Header
+        name="Dendro Reactions"
+        headerColor="bg-dendro"
+        borderColor="border-dendro"
+        textColor="text-white"
+      />
+      <div className="rounded-2xl border-white border-solid">
+        <ButtonTray />
+      </div>
+      {/* <TestText name="Dendro Reactions" /> */}
       <Footer />
     </>
   );
