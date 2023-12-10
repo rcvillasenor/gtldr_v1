@@ -13,7 +13,9 @@ export default function CharTLDRs() {
         borderColor="border-hydro"
         textColor="white"
       />
-      <TestText name="Character TL;DRs" />
+      <div className="text-center border-3 border-solid rounded-2xl mx-3 my-3 py-20">Test space</div>
+      <div className="text-center border-3 border-solid rounded-2xl mx-3 my-3 py-20">Test space</div>
+      {/* <TestText name="Character TL;DRs" /> */}
       <Footer />
     </>
   );

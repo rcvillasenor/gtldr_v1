@@ -171,3 +171,6 @@ To Do (Still):
   - kit tldr
   - sets/stats tldr
   - use keqingmains as a guide and make sure to reference/give credit
+
+# 12/9/2023:
+- where should character tldrs go? guides or references? it seems more like a guide thing than a quick reference.
