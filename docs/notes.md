@@ -174,3 +174,8 @@ To Do (Still):
 
 # 12/9/2023:
 - where should character tldrs go? guides or references? it seems more like a guide thing than a quick reference.
+
+# 12/13/2023:
+- consider writing out the character tldr sections
+- decide where the character tldr sections go
+- finish the dendro guide
